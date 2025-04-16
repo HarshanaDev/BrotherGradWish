@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations on Your HND Graduation!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Floating background elements -->
+        <div class="floating-element" style="top:10%; left:10%; font-size:30px;">🎓</div>
+        <div class="floating-element" style="top:70%; left:80%; font-size:40px;">📚</div>
+        <div class="floating-element" style="top:30%; left:85%; font-size:25px;">🏆</div>
+        <div class="floating-element" style="top:80%; left:15%; font-size:35px;">⭐</div>
+
+        <!-- Engineering decorations -->
+        <div class="engineering-decoration" style="top:20%; left:5%; font-size:40px;">🔌</div>
+        <div class="engineering-decoration" style="top:60%; left:90%; font-size:35px;">🔋</div>
+        <div class="engineering-decoration" style="top:40%; left:10%; font-size:50px;">💻</div>
+        <div class="engineering-decoration" style="top:80%; left:80%; font-size:45px;">🖥️</div>
+
+        <!-- Countdown Section -->
+        <div id="countdown">3</div>
+
+        <!-- Challenges Section -->
+        <div id="challenges">
+            <h1>Your HND Journey</h1>
+            <div class="challenges-grid">
+                <div class="challenge-card" id="time-management">
+                    <h2><i class="fas fa-clock challenge-icon"></i>Time Management</h2>
+                    <p>Mastering the art of balancing multiple deadlines, coursework, and personal commitments
+                        throughout your HND program.</p>
+                </div>
+
+                <div class="challenge-card" id="mid-term">
+                    <h2><i class="fas fa-microchip challenge-icon"></i>Mid-Term Exams</h2>
+                    <p>Overcoming the intense pressure of mid-term assessments that tested your understanding of complex
+                        technical concepts.</p>
+                </div>
+
+                <div class="challenge-card" id="projects">
+                    <h2><i class="fas fa-laptop-code challenge-icon"></i>Projects</h2>
+                    <p>Developing comprehensive projects that demonstrated both your technical skills and creative
+                        problem-solving abilities.</p>
+                </div>
+
+                <div class="challenge-card" id="final-exams">
+                    <h2><i class="fas fa-robot challenge-icon"></i>Final Exams</h2>
+
+                    <p>The ultimate test of your knowledge and skills, proving your readiness for professional
+                        challenges ahead.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Finally Section -->
+        <div id="finally">
+            <h1>FINALLY</h1>
+        </div>
+
+        <!-- Congratulations Section -->
+        <div id="congratulations">
+            <h1>MISSION ACCOMPLISHED!</h1>
+            <img src="images/photo.jpg" alt="Graduate Photo" class="grad-photo" id="gradPhoto">
+            <h2
+                style="color: #f5af19; font-size: 2rem; margin: 10px 0; opacity: 0; animation: titleReveal 0.6s forwards 0.6s;">
+                "Congratulations, my dear brother, on achieving your HND!</h2>
+            <div class="message">
+                <p><i class="fas fa-graduation-cap celebration-icon"></i> You did it! Every target achieved, every
+                    challenge overcome. <i class="fas fa-graduation-cap celebration-icon"></i></p>
+
+
+                <p>This HND is just the beginning. Your dedication has set you on a path to even greater success in
+                    life.</p>
+
+            </div>
+
+            <!-- Tech Icons Animation -->
+            <div id="tech-icons-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
