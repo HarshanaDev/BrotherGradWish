@@ -6,7 +6,7 @@ const finallyElement = document.getElementById('finally');
 const congratsElement = document.getElementById('congratulations');
 const challengeCards = document.querySelectorAll('.challenge-card');
 const techIconsContainer = document.getElementById('tech-icons-container');
-const techIcons = ['💻', '🔍', '📶', '🛰️', '⚡', '🔨', '⏱️', '📏', '📐', '⚙️', '🔩', '🔬', '🧪', '🧲', '🔋', '💡', '🕹️'];
+const techIcons = ['💻',  '⚡',  '⏱️', '📏', '📐', '🔋', '💡', '🕹️'];
 
 const countdownInterval = setInterval(() => {
     count--;
