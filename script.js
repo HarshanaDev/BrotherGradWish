@@ -66,12 +66,12 @@ function showCongratulations() {
     setTimeout(() => {
         congratsElement.style.opacity = '1';
         createConfetti();
-        createTechIcons();
+        //createTechIcons();
 
         // Continuous effects
         const effectsInterval = setInterval(() => {
             createConfetti();
-            createTechIcons();
+           // createTechIcons();
         }, 300);
     }, 50);
 }
