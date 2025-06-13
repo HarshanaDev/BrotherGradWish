@@ -72,7 +72,7 @@ function showCongratulations() {
         const effectsInterval = setInterval(() => {
             createConfetti();
            // createTechIcons();
-        }, 300);
+        }, 1000);
     }, 50);
 }
 
